@@ -1,0 +1,482 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	background-color: #fafafa;
+}
+
+body {
+	width: 100%;
+	height: 2900px;
+}
+
+@font-face {
+    font-family: Charter;
+    src: url(fonts/charter.ttc);
+}
+
+@font-face {
+	font-family: Lato-Hairline;
+	src: url(fonts/lato-hairline.ttf);
+}
+
+@font-face {
+	font-family: Lato-Light;
+	src: url(fonts/lato-light.ttf);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 2em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "+";
+  padding-right: 5px;
+}
+
+#titletext {
+  	font-family: "didoni-urw";
+  	position: absolute;
+  	font-size: 30pt;
+  	top: 38px;
+  	left: 135px;
+  	}
+
+#navigation {
+	width: 100%;
+	height: 115px;
+	background-color: white;
+	opacity: 80%;
+	position: fixed;
+	z-index: 10;
+	}
+
+#description {
+	font-family: Charter;
+	font-size: 13pt;
+	margin-left: 135px;
+	position: absolute;
+  	left: 300px;
+  	top: 55px;
+}
+
+#yellowbar {
+	width: 280px;
+	height: 18px;
+	position: fixed;
+	background-color: #ffff66;
+	top: 60px;
+	left: 129px;
+	z-index: -1;
+}
+
+#navicon {
+	width: 30px;
+	height: 30px;
+	top: 45px;
+	right: 130px;
+	position: absolute;
+}
+
+#social {
+	width: 240px;
+	height: 37px;
+	right: 200px;
+	top: 42px;
+	position: absolute;
+}
+
+#searchbar {
+	width: 309px;
+	height: 27px;
+	top: 100px;
+	left: 590px;
+	position: absolute;
+}
+
+
+/*nav menu*/
+.navmenu {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.97);
+	position: absolute;
+	z-index: 99;
+	top: 0px;
+	left: 0px;
+	display: none;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.nav_close {
+	width: 30px;
+	height: 30px;
+	top: 45px;
+	right: 130px;
+	position: absolute;
+}
+
+.nav_headertext {
+	font-family: Charter;
+	font-size: 15pt;
+	font-style: bold;
+	margin: 30px 50px 30px 110px;
+	text-align: center;
+}
+
+
+
+
+
+/*photos*/
+
+#boho {
+	width: 300px;
+	height: 300px;
+}
+
+#prints {
+	width: 200px;
+	height: 200px;
+}
+
+	#rock_crop {
+		width: 250px;
+		height: 200px;
+		overflow: hidden;
+	}
+
+#rocks {
+	width: 300px;
+	height: 300px;
+}
+
+#yellow {
+	width: 360px;
+	height: 360px;
+}
+
+	#couch_crop {
+		width: 300px;
+		height: 367px;
+		overflow: hidden;
+		margin-top: -60px;
+	}
+
+#couch {
+	width: 367px;
+	height: 367px;
+}
+
+#wallhook {
+	width: 470px;
+	height: 470px;
+	margin-top: -162px;
+}
+
+#worktable {
+	width: 170px;
+	height: 170px;
+}
+
+#tassles {
+	width: 170px;
+	height: 170px;
+}
+
+#rug {
+	width: 400px;
+	height: 400px;
+}
+
+#livingroom {
+	width: 200px;
+	height: 200px;
+}
+
+	#embroidery_crop {
+		width: 150px;
+		height: 200px;
+		overflow: hidden;
+	}
+
+#embroidery {
+	width: 200px;
+	height: 200px;
+}
+
+	#pouf_crop {
+		width: 360px;
+		height: 338px;
+		overflow: hidden;
+		margin-top: -138px;
+	}
+
+#pouf {
+	width: 360px;
+	height: 360px;
+}
+
+#apron {
+	width: 445px;
+	height: 445px;
+	margin-left: -220px;
+}
+
+#art {
+	width: 286px;
+	height: 286px;
+}
+
+#turquoise {
+	width: 400px;
+	height: 400px;
+	margin-top: -265px;
+}
+
+#hiking {
+	width: 200px;
+	height: 200px;
+}
+
+	#yellowcouch_crop {
+		width: 225px;
+		height: 200px;
+		overflow: hidden;
+	}
+
+#yellowcouch {
+	width: 225px;
+	height: 225px;
+}
+
+	#waffles_crop {
+		width: 286px;
+		height: 360px;
+		overflow: hidden;
+		margin-top: -160px;
+	}
+
+#waffles {
+	width: 360px;
+	height: 360px;
+}
+
+	#breakfast_crop {
+		width: 400px;
+		height: 300px;
+		overflow: hidden;
+		margin-left: -1191px;
+		margin-top: 157px;
+	}
+
+#breakfast {
+	width: 400px;
+	height: 400px;
+
+}
+
+#crib {
+	width: 300px;
+	height: 300px;
+	margin-right: 440px;
+}
+
+#eggs {
+	width: 433px;
+	height: 433px;
+	margin-top: -322px;
+	margin-left: 740px;
+}
+
+	#fringe_crop {
+		width: 200px;
+		height: 200px;
+		margin-top: -200px;
+	}
+
+#fringe {
+	width: 200px;
+	height: 200px;
+}
+
+	#grapefruit_crop {
+		width: 180px;
+		height: 200px;
+		overflow: hidden;
+		margin-top: -200px;
+	}
+
+#grapefruit {
+	width: 200px;
+	height: 200px;
+}
+
+#graycouch {
+	width: 300px;
+	height: 300px;
+	margin-top: -135px;
+}
+
+	#hand_crop {
+		width: 433px;
+		height: 300px;
+		overflow: hidden;
+	}
+
+#hand {
+	width: 433px;
+	height: 433px;
+}
+
+#pancakes {
+	width: 400px;
+	height: 400px;
+	margin-top: -295px;
+}
+
+#pouch {
+	width: 300px;
+	height: 300px;
+	margin-top: -135px;
+}
+
+
+
+
+
+/*photo container*/
+.gallery {
+	width: 1200px;
+	height: 2600px;
+	position: absolute;
+	left: 50%;
+	margin-left: -580px;
+	top: 150px;
+}
+
+.unit {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.DIYgallery {
+	width: 1200px;
+	height: 1500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+	top: 300px;
+}
+
+.DIYphotos {
+	width: 300px;
+	height: 300px;
+	margin: 0 20px 20px 0;
+}
+
+#DIYheader {
+	font-family: Lato-Light;
+	font-size: 20pt;
+	color: black;
+	position: absolute;
+	top: 200px;
+	left: 700px;
+}
+
+
+
+
+
+/*article*/
+.article_content {
+	width: 1200px;
+	height: 3000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -580px;
+	top: 150px;
+}
+
+#article_title {
+	font-family: Lato-Light;
+	font-size: 16pt;
+	margin: 20px 20px 10px 0px;
+}
+
+#article_description {
+	font-family: Lato-Hairline;
+	font-size: 13pt;
+	margin: 10px 20px 20px 0px;
+}
+
+.article_text {
+	width: 595px;
+	height: 2000px;
+	font-family: Charter;
+	font-size: 11pt;
+	line-height: 1.5;
+}
+
+#header_decoration {
+	width: 595px;
+	height: 0.5px;
+	top: 150px;
+	background-color: black;
+}
+
+#article_1 {
+	width: 480px;
+	height: 738px;
+	position: absolute;
+	right: 33px;
+	top: 20px;
+}
+
+#article_2 {
+	width: 480px;
+	position: absolute;
+	right: 33px;
+	top: 800px;
+}
+
+#article_background {
+	width: 100%;
+	height: 2900px;
+	position: absolute;
+	background-color: white;
+}
+
+#share {
+	width: 200px;
+	height: 47px;
+	left: 25px;
+}
+
+#comments {
+	width: 595px;
+	height: 675px;
+	left: 25px;
+	margin-top: 100px;
+}
+
+
+
+
+
+
